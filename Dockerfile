@@ -5,4 +5,4 @@ COPY target\hello-world-0.0.1-SNAPSHOT.jar hello.jar
 
 EXPOSE 8080
 
-CMD ["java", "-jar", "<your-file>-<version>/SNAPSHOT.jar"]
+CMD ["java", "-jar", "hello.jar"]
